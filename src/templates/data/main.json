@@ -30,7 +30,7 @@
   "rotator":
   [
     {
-      "image": "images/background55.jpg",
+      "image": "images/background-iron-1.jpg",
       "title": "Lorem",
       "layer1": "Seja bem vindo",
       "layer2": "Rodrigues Soluções Industriais",
@@ -38,15 +38,7 @@
       "layer4": "Saiba mais"
     },
     {
-      "image": "images/background18.jpg",
-      "title": "Lorem",
-      "layer1": "Seja bem vindo",
-      "layer2": "Rodrigues Soluções Industriais",
-      "layer3": "Beleza, elegância e qualidade no serviço",
-      "layer4": "Saiba mais"
-    },
-    {
-      "image": "images/background19.jpg",
+      "image": "images/background-iron-2.jpg",
       "title": "Lorem",
       "layer1": "Seja bem vindo",
       "layer2": "Rodrigues Soluções Industriais",
@@ -129,7 +121,7 @@
         {
           "url": "projects/project_02.html",
           "class": "graphic",
-          "image": "images/portfolio/14.jpg",
+          "image": "images/portfolio/port-1.jpg",
           "alt": "Rodrigues",
           "icon": "fa fa-camera-retro",
           "icon-title": "Serviço",
@@ -139,7 +131,7 @@
         {
           "url": "projects/project_02.html",
           "class": "graphic design photography",
-          "image": "images/portfolio/14.jpg",
+          "image": "images/portfolio/port-1.jpg",
           "alt": "Rodrigues",
           "icon": "fa fa-camera-retro",
           "icon-title": "Serviço",
@@ -149,7 +141,7 @@
         {
           "url": "projects/project_02.html",
           "class": "design photography",
-          "image": "images/portfolio/14.jpg",
+          "image": "images/portfolio/port-1.jpg",
           "alt": "Rodrigues",
           "icon": "fa fa-camera-retro",
           "icon-title": "Serviço",
@@ -159,7 +151,7 @@
         {
           "url": "projects/project_02.html",
           "class": "graphic",
-          "image": "images/portfolio/14.jpg",
+          "image": "images/portfolio/port-1.jpg",
           "alt": "Rodrigues",
           "icon": "fa fa-camera-retro",
           "icon-title": "Serviço",
@@ -169,7 +161,7 @@
         {
           "url": "projects/project_02.html",
           "class": "design",
-          "image": "images/portfolio/14.jpg",
+          "image": "images/portfolio/port-1.jpg",
           "alt": "Rodrigues",
           "icon": "fa fa-camera-retro",
           "icon-title": "Serviço",
@@ -179,7 +171,7 @@
         {
           "url": "projects/project_02.html",
           "class": "graphic photography",
-          "image": "images/portfolio/14.jpg",
+          "image": "images/portfolio/port-1.jpg",
           "alt": "Rodrigues",
           "icon": "fa fa-camera-retro",
           "icon-title": "Serviço",
@@ -189,7 +181,7 @@
         {
           "url": "projects/project_02.html",
           "class": "photography",
-          "image": "images/portfolio/14.jpg",
+          "image": "images/portfolio/port-1.jpg",
           "alt": "Rodrigues",
           "icon": "fa fa-camera-retro",
           "icon-title": "Serviço",
@@ -199,7 +191,7 @@
         {
           "url": "projects/project_02.html",
           "class": "graphic",
-          "image": "images/portfolio/14.jpg",
+          "image": "images/portfolio/port-1.jpg",
           "alt": "Rodrigues",
           "icon": "fa fa-camera-retro",
           "icon-title": "Serviço",
@@ -209,7 +201,7 @@
         {
           "url": "projects/project_02.html",
           "class": "graphic design photography",
-          "image": "images/portfolio/14.jpg",
+          "image": "images/portfolio/port-1.jpg",
           "alt": "Rodrigues",
           "icon": "fa fa-camera-retro",
           "icon-title": "Serviço",
@@ -219,7 +211,7 @@
         {
           "url": "projects/project_02.html",
           "class": "design photography",
-          "image": "images/portfolio/14.jpg",
+          "image": "images/portfolio/port-1.jpg",
           "alt": "Rodrigues",
           "icon": "fa fa-camera-retro",
           "icon-title": "Serviço",
@@ -234,35 +226,35 @@
   [
     {
       "url": "projects/project_01.html",
-      "image": "images/portfolio/featured02.jpg",
+      "image": "images/portfolio/port-2.jpg",
       "alt": "Rodrigues",
       "title": "Trabalho realizado",
       "description": "Use poucas palavras"
     },
     {
       "url": "projects/project_01.html",
-      "image": "images/portfolio/featured02.jpg",
+      "image": "images/portfolio/port-2.jpg",
       "alt": "Rodrigues",
       "title": "Trabalho realizado",
       "description": "Use poucas palavras"
     },
     {
       "url": "projects/project_01.html",
-      "image": "images/portfolio/featured02.jpg",
+      "image": "images/portfolio/port-2.jpg",
       "alt": "Rodrigues",
       "title": "Trabalho realizado",
       "description": "Use poucas palavras"
     },
     {
       "url": "projects/project_01.html",
-      "image": "images/portfolio/featured02.jpg",
+      "image": "images/portfolio/port-2.jpg",
       "alt": "Rodrigues",
       "title": "Trabalho realizado",
       "description": "Use poucas palavras"
     },
     {
       "url": "projects/project_01.html",
-      "image": "images/portfolio/featured02.jpg",
+      "image": "images/portfolio/port-2.jpg",
       "alt": "Rodrigues",
       "title": "Trabalho realizado",
       "description": "Use poucas palavras"
