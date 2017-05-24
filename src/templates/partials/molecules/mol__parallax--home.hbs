@@ -1,14 +1,16 @@
+{{#if rotator}}
 <!-- Home Section -->
 <section id="home" class="home rev-slider container">
 	<!-- Container  -->
 	<div class="tp-banner-container">
 		<!-- Banner  -->
 		<div class="revslider t-center" >
-			<ul>	
+			<ul>
+			{{#each rotator}}
 				<!-- Slide  -->
-				<li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="images/background55.jpg" data-delay="13000"  data-saveperformance="off"  data-title="Winter and Sun">
+				<li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="{{image}}" data-delay="13000"  data-saveperformance="off"  data-title="{{title}}">
 					<!-- Background Image -->
-					<img src="images/background55.jpg"  alt="slidebg"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+					<img src="{{image}}"  alt="slidebg"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 					<!-- LAYERS / LAYER NR. 1 -->
 					<div class="tp-caption customin customout rs-parallaxlevel-5 normal fourth_text gray-light oswald uppercase" data-0="opacity:1;" data-600="opacity:0;"
 						data-x="center" data-hoffset="8"
@@ -22,7 +24,7 @@
 						data-endelementdelay="0.1"
 						style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
 						<!-- Layer Item  -->
-						crexıs creative agency
+						{{layer1}}
 					</div>
 
 					<!-- LAYER NR. 2 -->
@@ -38,7 +40,7 @@
 						data-endelementdelay="0.1"
 						style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
 						<!-- Layer Item  -->
-						welcome to crexıs
+						{{layer2}}
 					</div>
 
 					<!-- LAYER NR. 3 -->
@@ -54,7 +56,7 @@
 						data-endelementdelay="0.1"
 						style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
 						<!-- Layer Item  -->
-						Clean, responsive and professional design with powerful code!
+						{{layer3}}
 					</div>
 
 					<!-- LAYER NR. 4 -->
@@ -71,157 +73,12 @@
 						style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
 						<!-- Layer Item  -->
 						<a href="#about" class="home-button dark-button uppercase normal oswald scroll" data-0="opacity:1;" data-600="opacity:0;">
-							Get Started
-						</a>
-					</div>
-
-				</li>
-				<!-- End Slide  -->
-
-				<!-- Slide  -->
-				<li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="images/background18.jpg" data-delay="13000"  data-saveperformance="off"  data-title="Green View">
-					<!-- Background Image -->
-					<img src="images/background18.jpg"  alt="slidebg"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-					<!-- LAYERS / LAYER NR. 1 -->
-					<div class="tp-caption customin customout rs-parallaxlevel-5 normal fourth_text gray-light oswald uppercase" data-0="opacity:1;" data-600="opacity:0;"
-						data-x="center" data-hoffset="8"
-						data-y="center" data-voffset="-105"
-						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="900"
-						data-start="1400"
-						data-easing="Power4.easeOut"
-						data-elementdelay="0.1"
-						data-endelementdelay="0.1"
-						style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-						<!-- Layer Item  -->
-						crexıs creative agency
-					</div>
-
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption customin customout rs-parallaxlevel-5 second_text normal white oswald uppercase" data-0="opacity:1;" data-600="opacity:0;"
-						data-x="center" data-hoffset="0"
-						data-y="center" data-voffset="-35"
-						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="900"
-						data-start="1500"
-						data-easing="Power4.easeOut"
-						data-elementdelay="0.1"
-						data-endelementdelay="0.1"
-						style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-						<!-- Layer Item  -->
-						Design Your Life
-					</div>
-
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption customin customout rs-parallaxlevel-5 third_text normal white normal" data-0="opacity:1;" data-600="opacity:0;"
-						data-x="center" data-hoffset="0"
-						data-y="center" data-voffset="37"
-						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="900"
-						data-start="1600"
-						data-easing="Power4.easeOut"
-						data-elementdelay="0.1"
-						data-endelementdelay="0.1"
-						style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-						<!-- Layer Item  -->
-						Clean, responsive and professional design with powerful code!
-					</div>
-
-					<!-- LAYER NR. 4 -->
-					<div class="tp-caption customin customout rs-parallaxlevel-5"
-						data-x="center" data-hoffset="0"
-						data-y="center" data-voffset="85"
-						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="900"
-						data-start="1700"
-						data-easing="Power4.easeOut"
-						data-elementdelay="0.1"
-						data-endelementdelay="0.1"
-						style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-						<!-- Layer Item  -->
-						<a href="#about" class="home-button dark-button uppercase normal oswald scroll" data-0="opacity:1;" data-600="opacity:0;">
-							Get Started
+							{{layer4}}
 						</a>
 					</div>
 				</li>
 				<!-- End Slide  -->
-
-				<!-- Slide  -->
-				<li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="images/background19.jpg" data-delay="13000"  data-saveperformance="off"  data-title="Beautiful Girl">
-					<!-- Background Image -->
-					<img src="images/background19.jpg"  alt="slidebg"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-					<!-- LAYERS / LAYER NR. 1 -->
-					<div class="tp-caption customin customout rs-parallaxlevel-5 normal fourth_text gray-light oswald uppercase" data-0="opacity:1;" data-600="opacity:0;"
-						data-x="center" data-hoffset="8"
-						data-y="center" data-voffset="-105"
-						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="900"
-						data-start="1400"
-						data-easing="Power4.easeOut"
-						data-elementdelay="0.1"
-						data-endelementdelay="0.1"
-						style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-						<!-- Layer Item  -->
-						crexıs creative agency
-					</div>
-
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption customin customout rs-parallaxlevel-5 second_text normal white oswald uppercase" data-0="opacity:1;" data-600="opacity:0;"
-						data-x="center" data-hoffset="0"
-						data-y="center" data-voffset="-35"
-						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="900"
-						data-start="1500"
-						data-easing="Power4.easeOut"
-						data-elementdelay="0.1"
-						data-endelementdelay="0.1"
-						style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-						<!-- Layer Item  -->
-						welcome to crexıs agency
-					</div>
-
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption customin customout rs-parallaxlevel-5 third_text normal white normal" data-0="opacity:1;" data-600="opacity:0;"
-						data-x="center" data-hoffset="0"
-						data-y="center" data-voffset="37"
-						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="900"
-						data-start="1600"
-						data-easing="Power4.easeOut"
-						data-elementdelay="0.1"
-						data-endelementdelay="0.1"
-						style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-						<!-- Layer Item  -->
-						Clean, responsive and professional design with powerful code!
-					</div>
-
-					<!-- LAYER NR. 4 -->
-					<div class="tp-caption customin customout rs-parallaxlevel-5"
-						data-x="center" data-hoffset="0"
-						data-y="center" data-voffset="85"
-						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="900"
-						data-start="1700"
-						data-easing="Power4.easeOut"
-						data-elementdelay="0.1"
-						data-endelementdelay="0.1"
-						style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-						<!-- Layer Item  -->
-						<a href="#about" class="home-button dark-button uppercase normal oswald scroll" data-0="opacity:1;" data-600="opacity:0;">
-							Get Started
-						</a>
-					</div>
-				</li>
-				<!-- End Slide  -->
-
+			{{/each}}
 			</ul>
 		</div>
 		<!-- End Slider  -->
@@ -229,3 +86,8 @@
 	<!-- End Container  -->
 </section>
 <!-- End Home Section -->
+
+{{/if}}
+
+
+

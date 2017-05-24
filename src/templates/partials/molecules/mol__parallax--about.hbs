@@ -1,3 +1,5 @@
+{{#if about}}
+{{#each about}}
 <!-- Features Section -->
 <section id="about" class="container">
 
@@ -6,139 +8,44 @@
 
 		<!-- Header -->
 		<h1 class="header header-style-1 dark normal uppercase oswald animated" data-animation="fadeIn" data-animation-delay="200">
-			Welcome To Crexis! We Create <span class="colored">Awesome</span> Themes
+			{{title}} <span class="colored">{{title-color}}</span>
 		</h1>
 		<!-- Header Text -->
 		<p class="light animated" data-animation="fadeIn" data-animation-delay="200">
-			This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.
+			{{subtitle}}
 		</p>
 
 		<!-- Boxes  -->
 		<div class="feature-boxes type-3 clearfix">
 
+			{{#if featured}}
+			{{#each featured}}
 			<!-- Box  -->
 			<div class="feature-box col-xs-4 animated" data-animation="fadeIn" data-animation-delay="100">
 				<!-- Box Icon  -->
 				<div class="f-left feature-icon">
-					<i class="fa fa-rocket"></i>
+					<i class="{{icon}}"></i>
 				</div>
 				<!-- Box Texts  -->
 				<div class="feature-text small-head f-left t-left dark">
 					<!-- Box Header  -->
 					<h4 class="no-margin normal no-padding oswald uppercase">
-						Unique Design
+						{{title}}
 					</h4>
 					<!-- Box Description  -->
 					<p>
-						This is Photoshop's version  of the Lorem. Proin gravida nibh the  vel velit auctor aliq sollicitudin. Duis sed odio sit amet nibh vulbutate
+						{{description}}
 					</p>
 				</div>
 			</div>
 			<!-- End Box  -->
-
-			<!-- Box  -->
-			<div class="feature-box col-xs-4 animated" data-animation="fadeIn" data-animation-delay="150">
-				<!-- Box Icon  -->
-				<div class="f-left feature-icon">
-					<i class="fa fa-briefcase"></i>
-				</div>
-				<!-- Box Texts  -->
-				<div class="feature-text small-head f-left t-left dark">
-					<!-- Box Header  -->
-					<h4 class="no-margin normal no-padding oswald uppercase">
-						Awesome Icons
-					</h4>
-					<!-- Box Description  -->
-					<p>
-						This is Photoshop's version  of the Lorem. Proin gravida nibh the  vel velit auctor aliq sollicitudin. Duis sed odio sit amet nibh vulbutate
-					</p>
-				</div>
-			</div>
-			<!-- End Box  -->
-
-			<!-- Box  -->
-			<div class="feature-box col-xs-4 animated" data-animation="fadeIn" data-animation-delay="200">
-				<!-- Box Icon  -->
-				<div class="f-left feature-icon">
-					<i class="fa fa-clock-o"></i>
-				</div>
-				<!-- Box Texts  -->
-				<div class="feature-text small-head f-left t-left dark">
-					<!-- Box Header  -->
-					<h4 class="no-margin normal no-padding oswald uppercase">
-						Powerful Code
-					</h4>
-					<!-- Box Description  -->
-					<p>
-						This is Photoshop's version  of the Lorem. Proin gravida nibh the  vel velit auctor aliq sollicitudin. Duis sed odio sit amet nibh vulbutate
-					</p>
-				</div>
-			</div>
-			<!-- End Box  -->
-
-			<!-- Box  -->
-			<div class="feature-box col-xs-4 animated" data-animation="fadeIn" data-animation-delay="250">
-				<!-- Box Icon  -->
-				<div class="f-left feature-icon">
-					<i class="fa fa-cloud"></i>
-				</div>
-				<!-- Box Texts  -->
-				<div class="feature-text small-head f-left t-left dark">
-					<!-- Box Header  -->
-					<h4 class="no-margin normal no-padding oswald uppercase">
-						ShortCodes
-					</h4>
-					<!-- Box Description  -->
-					<p>
-						This is Photoshop's version  of the Lorem. Proin gravida nibh the  vel velit auctor aliq sollicitudin. Duis sed odio sit amet nibh vulbutate
-					</p>
-				</div>
-			</div>
-			<!-- End Box  -->
-
-			<!-- Box  -->
-			<div class="feature-box col-xs-4 animated" data-animation="fadeIn" data-animation-delay="300">
-				<!-- Box Icon  -->
-				<div class="f-left feature-icon">
-					<i class="fa fa-leaf"></i>
-				</div>
-				<!-- Box Texts  -->
-				<div class="feature-text small-head f-left t-left dark">
-					<!-- Box Header  -->
-					<h4 class="no-margin normal no-padding oswald uppercase">
-						Clean Code
-					</h4>
-					<!-- Box Description  -->
-					<p>
-						This is Photoshop's version  of the Lorem. Proin gravida nibh the  vel velit auctor aliq sollicitudin. Duis sed odio sit amet nibh vulbutate
-					</p>
-				</div>
-			</div>
-			<!-- End Box  -->
-
-			<!-- Box  -->
-			<div class="feature-box col-xs-4 animated" data-animation="fadeIn" data-animation-delay="350">
-				<!-- Box Icon  -->
-				<div class="f-left feature-icon">
-					<i class="fa fa-diamond"></i>
-				</div>
-				<!-- Box Texts  -->
-				<div class="feature-text small-head f-left t-left dark">
-					<!-- Box Header  -->
-					<h4 class="no-margin normal no-padding oswald uppercase">
-						Parallax Effects
-					</h4>
-					<!-- Box Description  -->
-					<p>
-						This is Photoshop's version  of the Lorem. Proin gravida nibh the  vel velit auctor aliq sollicitudin. Duis sed odio sit amet nibh vulbutate
-					</p>
-				</div>
-			</div>
-			<!-- End Box  -->
-
+			{{/each}}
+			{{/if}}
 		</div>
 		<!-- End Boxes  -->
 	</div>
 	<!-- End Features Inner  -->
 </section>
 <!-- End Features Section  -->
+{{/each}}
+{{/if}}

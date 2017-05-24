@@ -1,115 +1,32 @@
+{{#if featured-works}}
 <!-- Featured Works Section -->
 <section id="featured-works" class="container no-padding no-border-bottom carousel_type">
-
 	<!-- Featured Slider -->
 	<div class="featured-slider-boxes box-carousel three-items no-pagination t-center">
-
+		{{#each featured-works}}
 		<!-- Box -->
-		<a href="projects/project_01.html" class="box ex-link">
+		<a href="{{url}}" class="box ex-link">
 			<!-- Box Image -->
 			<div class="item_image">
 				<!-- Image SRC -->
-				<img src="images/portfolio/featured01.jpg" alt="Crexis" />
+				<img src="{{image}}" alt="{{alt}}" />
 			</div>
 			<!-- Item Texts -->
 			<div class="item_texts">
 				<!-- Header -->
 				<h2 class="normal antialiased oswald uppercase">
-					Beautiful Girl
+					{{title}}
 				</h2>
 				<!-- Description --> 
 				<p class="light">
-					Photography
+					{{descrition}}
 				</p>
 			</div>
 		</a>
 		<!-- End Box -->
-
-		<!-- Box -->
-		<a href="projects/project_01.html" class="box ex-link">
-			<!-- Box Image -->
-			<div class="item_image">
-				<!-- Image SRC -->
-				<img src="images/portfolio/featured02.jpg" alt="Crexis" />
-			</div>
-			<!-- Item Texts -->
-			<div class="item_texts">
-				<!-- Header -->
-				<h2 class="normal antialiased oswald uppercase">
-					Desert
-				</h2>
-				<!-- Description -->
-				<p class="light">
-					Photography
-				</p>
-			</div>
-		</a>
-		<!-- End Box -->
-
-		<!-- Box -->
-		<a href="projects/project_01.html" class="box ex-link">
-			<!-- Box Image -->
-			<div class="item_image">
-				<!-- Image SRC -->
-				<img src="images/portfolio/featured03.jpg" alt="Crexis" />
-			</div>
-			<!-- Item Texts -->
-			<div class="item_texts">
-				<!-- Header -->
-				<h2 class="normal antialiased oswald uppercase">
-					Ocean
-				</h2>
-				<!-- Description -->
-				<p class="light">
-					Photography
-				</p>
-			</div>
-		</a>
-		<!-- End Box -->
-
-		<!-- Box -->
-		<a href="projects/project_01.html" class="box ex-link">
-			<!-- Box Image -->
-			<div class="item_image">
-				<!-- Image SRC -->
-				<img src="images/portfolio/featured04.jpg" alt="Crexis" />
-			</div>
-			<!-- Item Texts -->
-			<div class="item_texts">
-				<!-- Header -->
-				<h2 class="normal antialiased oswald uppercase">
-					Yellow Tone
-				</h2>
-				<!-- Description -->
-				<p class="light">
-					Photography
-				</p>
-			</div>
-		</a>
-		<!-- End Box -->
-
-		<!-- Box -->
-		<a href="projects/project_01.html" class="box ex-link">
-			<!-- Box Image -->
-			<div class="item_image">
-				<!-- Image SRC -->
-				<img src="images/portfolio/featured05.jpg" alt="Crexis" />
-			</div>
-			<!-- Item Texts -->
-			<div class="item_texts">
-				<!-- Header -->
-				<h2 class="normal antialiased oswald uppercase">
-					Sun and Snow
-				</h2>
-				<!-- Description -->
-				<p class="light">
-					Photography
-				</p>
-			</div>
-		</a>
-		<!-- End Box -->
-
+		{{/each}}
 	</div>
 	<!-- End Featured Slider -->
 </section>
 <!-- End Featured Works Alternative Section -->
+{{/if}}

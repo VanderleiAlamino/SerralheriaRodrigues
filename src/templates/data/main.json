@@ -1,142 +1,272 @@
-{ "odb-grid":
+{
+  "menu":
   [
     {
-      "title": "Prospecção",
-      "content": 
-      [
-        {
-          "item": "Projeto 367"
-        },
-        {
-          "item": "Projeto 368"
-        },
-        {
-          "item": "Projeto 369"
-        },
-        {
-          "item": "Projeto 370"
-        }        
-      ]
+      "item": "Home",
+      "url": "#home"
     },
     {
-      "title": "Objetivo e Escopo",
-      "content": 
-      [
-        {
-          "item": "Projeto 371"
-        },
-        {
-          "item": "Projeto 372"
-        }       
-      ]
+      "item": "Sobre",
+      "url": "#about"
     },
     {
-      "title": "Inventário de Ciclo de Vida",
-      "content": 
-      [
-        {
-          "item": "Projeto 373"
-        },
-        {
-          "item": "Projeto 374"
-        },
-        {
-          "item": "Projeto 375"
-        },
-        {
-          "item": "Projeto 376"
-        },
-        {
-          "item": "Projeto 377"
-        },
-        {
-          "item": "Projeto 378"
-        },
-        {
-          "item": "Projeto 379"
-        },
-        {
-          "item": "Projeto 380"
-        }        
-      ]
+      "item": "Trabalhos",
+      "url": "#portfolio"
     },
     {
-      "title": "Resultado Final",
-      "content": 
-      [
-        {
-          "item": "Projeto 381"
-        },
-        {
-          "item": "Projeto 382"
-        },
-        {
-          "item": "Projeto 389"
-        },
-        {
-          "item": "Projeto 390"
-        },
-        {
-          "item": "Projeto 391"
-        }
-      ]
+      "item": "Preços",
+      "url": "#pricing-tables"
     },
     {
-      "title": "Peer View",
-      "content": 
-      [
-        {
-          "item": "Projeto 392"
-        },
-        {
-          "item": "Projeto 393"
-        },
-        {
-          "item": "Projeto 394"
-        },
-        {
-          "item": "Projeto 395"
-        },
-        {
-          "item": "Projeto 396"
-        },
-        {
-          "item": "Projeto 397"
-        },
-        {
-          "item": "Projeto 398"
-        }               
-      ]
+      "item": "Contato",
+      "url": "#contact"
     },
     {
-      "title": "Não comunicado",
-      "content": 
-      [
-        {
-          "item": "Projeto 399"
-        },
-        {
-          "item": "Projeto 400"
-        },
-        {
-          "item": "Projeto 401"
-        },
-        {
-          "item": "Projeto 402"
-        },
-        {
-          "item": "Projeto 403"
-        }
-      ]
+      "item": "Endereço",
+      "url": "#map"
+    }         
+  ],
+
+  "rotator":
+  [
+    {
+      "image": "images/background55.jpg",
+      "title": "Lorem",
+      "layer1": "Seja bem vindo",
+      "layer2": "Rodrigues Soluções Industriais",
+      "layer3": "Beleza, elegância e qualidade no serviço",
+      "layer4": "Saiba mais"
     },
     {
-      "title": "Comunicado",
-      "content": 
-      [
+      "image": "images/background18.jpg",
+      "title": "Lorem",
+      "layer1": "Seja bem vindo",
+      "layer2": "Rodrigues Soluções Industriais",
+      "layer3": "Beleza, elegância e qualidade no serviço",
+      "layer4": "Saiba mais"
+    },
+    {
+      "image": "images/background19.jpg",
+      "title": "Lorem",
+      "layer1": "Seja bem vindo",
+      "layer2": "Rodrigues Soluções Industriais",
+      "layer3": "Beleza, elegância e qualidade no serviço",
+      "layer4": "Saiba mais"
+    }
+  ],
+
+  "about":
+  [
+    {
+      "title-start": "Bem vindo a",
+      "title-color": "Rodrigues Soluções Industriais",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodvtempor incididunt ut labore et dolore magna aliqua.",
+      "featured":[
         {
-          "item": "Projeto 404"
+          "icon": "fa fa-rocket",
+          "title": "Lorem Ipsum",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+          "icon": "fa fa-briefcase",
+          "title": "Lorem Ipsum",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+          "icon": "fa fa-clock-o",
+          "title": "Lorem Ipsum",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+          "icon": "fa fa-cloud",
+          "title": "Lorem Ipsum",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+          "icon": "fa fa-leaf",
+          "title": "Lorem Ipsum",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+          "icon": "fa fa-diamond",
+          "title": "Lorem Ipsum",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
       ]
     }
+  ],
+
+  "portfolio":
+  [
+    {
+      "title": "Confira nossos Trabalhos",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodvtempor incididunt ut labore et dolore magna aliqua.",
+      "sections":
+      [
+        {
+          "item": "Todos",
+          "view": "*",
+          "class": "cbp-filter-item-active cbp-filter-item"
+        },
+        {
+          "item": "Serralheria Artística",
+          "view": ".graphic",
+          "class": "cbp-filter-item"
+        },
+        {
+          "item": "Serralheria Industrial",
+          "view": ".design",
+          "class": "cbp-filter-item"
+        },
+        {
+          "item": "Fabrica de Portas de Aço",
+          "view": ".photography",
+          "class": "cbp-filter-item"
+        }
+      ],
+      "portfolio-itens":
+      [
+        {
+          "url": "projects/project_02.html",
+          "class": "graphic",
+          "image": "images/portfolio/14.jpg",
+          "alt": "Rodrigues",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Serviço",
+          "title": "Porta em Aço Inoxidável",
+          "tags": "Artística, Industrial"
+        },
+        {
+          "url": "projects/project_02.html",
+          "class": "graphic design photography",
+          "image": "images/portfolio/14.jpg",
+          "alt": "Rodrigues",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Serviço",
+          "title": "Porta em Aço Inoxidável",
+          "tags": "Artística, Industrial"
+        },
+        {
+          "url": "projects/project_02.html",
+          "class": "design photography",
+          "image": "images/portfolio/14.jpg",
+          "alt": "Rodrigues",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Serviço",
+          "title": "Porta em Aço Inoxidável",
+          "tags": "Artística, Industrial"
+        },
+        {
+          "url": "projects/project_02.html",
+          "class": "graphic",
+          "image": "images/portfolio/14.jpg",
+          "alt": "Rodrigues",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Serviço",
+          "title": "Porta em Aço Inoxidável",
+          "tags": "Artística, Industrial"
+        },
+        {
+          "url": "projects/project_02.html",
+          "class": "design",
+          "image": "images/portfolio/14.jpg",
+          "alt": "Rodrigues",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Serviço",
+          "title": "Porta em Aço Inoxidável",
+          "tags": "Artística, Industrial"
+        },
+        {
+          "url": "projects/project_02.html",
+          "class": "graphic photography",
+          "image": "images/portfolio/14.jpg",
+          "alt": "Rodrigues",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Serviço",
+          "title": "Porta em Aço Inoxidável",
+          "tags": "Artística, Industrial"
+        },
+        {
+          "url": "projects/project_02.html",
+          "class": "photography",
+          "image": "images/portfolio/14.jpg",
+          "alt": "Rodrigues",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Serviço",
+          "title": "Porta em Aço Inoxidável",
+          "tags": "Artística, Industrial"
+        },
+        {
+          "url": "projects/project_02.html",
+          "class": "graphic",
+          "image": "images/portfolio/14.jpg",
+          "alt": "Rodrigues",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Serviço",
+          "title": "Porta em Aço Inoxidável",
+          "tags": "Artística, Industrial"
+        },
+        {
+          "url": "projects/project_02.html",
+          "class": "graphic design photography",
+          "image": "images/portfolio/14.jpg",
+          "alt": "Rodrigues",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Serviço",
+          "title": "Porta em Aço Inoxidável",
+          "tags": "Artística, Industrial"
+        },
+        {
+          "url": "projects/project_02.html",
+          "class": "design photography",
+          "image": "images/portfolio/14.jpg",
+          "alt": "Rodrigues",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Serviço",
+          "title": "Porta em Aço Inoxidável",
+          "tags": "Artística, Industrial"
+        }
+      ]
+    }
+  ],
+
+  "featured-works":
+  [
+    {
+      "url": "projects/project_01.html",
+      "image": "images/portfolio/featured02.jpg",
+      "alt": "Rodrigues",
+      "title": "Trabalho realizado",
+      "description": "Use poucas palavras"
+    },
+    {
+      "url": "projects/project_01.html",
+      "image": "images/portfolio/featured02.jpg",
+      "alt": "Rodrigues",
+      "title": "Trabalho realizado",
+      "description": "Use poucas palavras"
+    },
+    {
+      "url": "projects/project_01.html",
+      "image": "images/portfolio/featured02.jpg",
+      "alt": "Rodrigues",
+      "title": "Trabalho realizado",
+      "description": "Use poucas palavras"
+    },
+    {
+      "url": "projects/project_01.html",
+      "image": "images/portfolio/featured02.jpg",
+      "alt": "Rodrigues",
+      "title": "Trabalho realizado",
+      "description": "Use poucas palavras"
+    },
+    {
+      "url": "projects/project_01.html",
+      "image": "images/portfolio/featured02.jpg",
+      "alt": "Rodrigues",
+      "title": "Trabalho realizado",
+      "description": "Use poucas palavras"
+    }
   ]
+
 }
