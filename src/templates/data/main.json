@@ -267,6 +267,167 @@
       "title": "Trabalho realizado",
       "description": "Use poucas palavras"
     }
-  ]
+  ],
 
+  "prices":
+  [
+    {
+      "title": "Nossos Preços",
+      "description": "Na área de Serralheria Artística desenvolvemos projetos buscando sempre atender o gosto do cliente, harmonizando a beleza, qualidade e muito atendo a segurança e funcionalidade de cada peça que fabricamos.",
+      "services":
+      [
+        {
+          "title": "Artística",
+          "value": "R$500",
+          "desc-value": "/peça",
+          "url": "#",
+          "button": "Saiba mais",
+          "list": 
+          [
+            {
+              "item": "lorem ipsum",
+              "class": "important"
+            },
+            {
+              "item": "lorem ipsum"
+            },
+            {
+              "item": "lorem ipsum",
+              "class": "important"
+            },
+            {
+              "item": "lorem ipsum",
+              "class": "important"
+            },
+            {
+              "item": "lorem ipsum"
+            }
+          ]
+        },
+        {
+          "title": "Industrial",
+          "value": "R$5000",
+          "desc-value": "/peça",
+          "url": "#",
+          "button": "Saiba mais",
+          "list": 
+          [
+            {
+              "item": "lorem ipsum",
+              "class": "important"
+            },
+            {
+              "item": "lorem ipsum"
+            },
+            {
+              "item": "lorem ipsum",
+              "class": "important"
+            },
+            {
+              "item": "lorem ipsum",
+              "class": "important"
+            },
+            {
+              "item": "lorem ipsum"
+            }
+          ]
+        },
+        {
+          "title": "Portas de Aço",
+          "value": "R$ 500",
+          "desc-value": "/peça",
+          "url": "#",
+          "button": "Saiba mais",
+          "list": 
+          [
+            {
+              "item": "lorem ipsum",
+              "class": "important"
+            },
+            {
+              "item": "lorem ipsum"
+            },
+            {
+              "item": "lorem ipsum",
+              "class": "important"
+            },
+            {
+              "item": "lorem ipsum",
+              "class": "important"
+            },
+            {
+              "item": "lorem ipsum"
+            }
+          ]
+        },
+        {
+          "title": "Laminados",
+          "value": "R$ 200",
+          "desc-value": "/peça",
+          "url": "#",
+          "button": "Saiba mais",
+          "list": 
+          [
+            {
+              "item": "lorem ipsum",
+              "class": "important"
+            },
+            {
+              "item": "lorem ipsum"
+            },
+            {
+              "item": "lorem ipsum",
+              "class": "important"
+            },
+            {
+              "item": "lorem ipsum",
+              "class": "important"
+            },
+            {
+              "item": "lorem ipsum"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "clients":
+  [
+    {
+      "title": "O que os clientes dizem?",
+      "description": "Na área de Serralheria Artística desenvolvemos projetos buscando sempre atender o gosto do cliente, harmonizando a beleza, qualidade e muito atendo a segurança e funcionalidade de cada peça que fabricamos.",
+      "testimonials":
+      [
+        {
+          "image": "images/clients/01.jpg",
+          "alt": "Rodrigues",
+          "client": "Cliente aqui",
+          "function": "Lorem ipsum",
+          "description": "Na área de Serralheria Artística desenvolvemos projetos buscando sempre atender o gosto do cliente, harmonizando a beleza, qualidade e muito atendo a segurança e funcionalidade de cada peça que fabricamos."
+        },
+        {
+          "image": "images/clients/02.jpg",
+          "alt": "Rodrigues",
+          "client": "Cliente aqui",
+          "function": "Lorem ipsum",
+          "description": "Na área de Serralheria Artística desenvolvemos projetos buscando sempre atender o gosto do cliente, harmonizando a beleza, qualidade e muito atendo a segurança e funcionalidade de cada peça que fabricamos."
+        },
+        {
+          "image": "images/clients/03.jpg",
+          "alt": "Rodrigues",
+          "client": "Cliente aqui",
+          "function": "Lorem ipsum",
+          "description": "Na área de Serralheria Artística desenvolvemos projetos buscando sempre atender o gosto do cliente, harmonizando a beleza, qualidade e muito atendo a segurança e funcionalidade de cada peça que fabricamos."
+        },
+        {
+          "image": "images/clients/04.jpg",
+          "alt": "Rodrigues",
+          "client": "Cliente aqui",
+          "function": "Lorem ipsum",
+          "description": "Na área de Serralheria Artística desenvolvemos projetos buscando sempre atender o gosto do cliente, harmonizando a beleza, qualidade e muito atendo a segurança e funcionalidade de cada peça que fabricamos."
+        }
+      ]
+    }
+  ]
 }
