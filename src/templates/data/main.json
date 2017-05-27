@@ -14,9 +14,9 @@
       "url": "#portfolio"
     },
     {
-      "item": "Preços",
-      "url": "#pricing-tables"
-    },
+      "item": "Clientes",
+      "url": "#clients"
+    }, 
     {
       "item": "Contato",
       "url": "#contact"
@@ -52,37 +52,37 @@
     {
       "title-start": "Bem vindo a",
       "title-color": "Rodrigues Soluções Industriais",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodvtempor incididunt ut labore et dolore magna aliqua.",
+      "subtitle": "Com centenas de obras concluidas, a Serralheria Rodrigues tem alcançado a satisfação de seus clientes, consolidando-se cada vez mais como uma empresa séria, que cumpre prazos e fornece o que promete, tanto na qualidade da matéria prima quanto no resultado final do trabalho.",
       "featured":[
         {
           "icon": "fa fa-rocket",
-          "title": "Lorem Ipsum",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "title": "Serralheria Artística",
+          "description": "Na área de Serralheria Artística desenvolvemos projetos buscando sempre atender o gosto do cliente, harmonizando a beleza, qualidade e muito atendo a segurança e funcionalidade de cada peça que fabricamos."
         },
         {
           "icon": "fa fa-briefcase",
-          "title": "Lorem Ipsum",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "title": "Serralheria Industrial",
+          "description": "Na área de Serralheria Industrial prestamos serviços diversos, desde a fabricação de dispositivos, adequações, confecção e instalação de proteções."
         },
         {
           "icon": "fa fa-clock-o",
-          "title": "Lorem Ipsum",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "title": "Colaboradores",
+          "description": "Os nossos colaboradores recebem treinamentos de capacitação para que atuem com total segurança e qualidade."
         },
         {
           "icon": "fa fa-cloud",
-          "title": "Lorem Ipsum",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "title": "Atendimentos",
+          "description": "Atendemos empresas de pequeno, médio e grande porte, sempre atento a todas exigências, normas e certificações solicitadas por empresas nacionais e multinacionais."
         },
         {
           "icon": "fa fa-leaf",
-          "title": "Lorem Ipsum",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "title": "Portas de Aço",
+          "description": "Destacamos nossa atuação no segmento de produção de portas de aço galvanizada, fabricando laminas com a qualidade, sendo referência neste segmento."
         },
         {
           "icon": "fa fa-diamond",
-          "title": "Lorem Ipsum",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "title": "Qualidade",
+          "description": "Tudo feito sob medida... até no bom gosto !!!"
         }
       ]
     }
@@ -388,36 +388,36 @@
   [
     {
       "title": "O que os clientes dizem?",
-      "description": "Na área de Serralheria Artística desenvolvemos projetos buscando sempre atender o gosto do cliente, harmonizando a beleza, qualidade e muito atendo a segurança e funcionalidade de cada peça que fabricamos.",
+      "description": "Destacamos alguns de nossos clientes...",
       "testimonials":
       [
         {
-          "image": "images/clients/01.jpg",
-          "alt": "Rodrigues",
-          "client": "Cliente aqui",
-          "function": "Lorem ipsum",
-          "description": "Na área de Serralheria Artística desenvolvemos projetos buscando sempre atender o gosto do cliente, harmonizando a beleza, qualidade e muito atendo a segurança e funcionalidade de cada peça que fabricamos."
+          "image": "images/clients/logo-01.jpg",
+          "alt": "Holcim",
+          "client": "Holcim",
+          "function": "Líder mundial em cimentos",
+          "description": ""
         },
         {
-          "image": "images/clients/02.jpg",
-          "alt": "Rodrigues",
-          "client": "Cliente aqui",
-          "function": "Lorem ipsum",
-          "description": "Na área de Serralheria Artística desenvolvemos projetos buscando sempre atender o gosto do cliente, harmonizando a beleza, qualidade e muito atendo a segurança e funcionalidade de cada peça que fabricamos."
+          "image": "images/clients/logo-02.jpg",
+          "alt": "Cervejaria Petrópolis",
+          "client": "Cervejaria Petrópolis",
+          "function": "A segunda maior cervejaria do Brasil",
+          "description": ""
         },
         {
-          "image": "images/clients/03.jpg",
-          "alt": "Rodrigues",
-          "client": "Cliente aqui",
-          "function": "Lorem ipsum",
-          "description": "Na área de Serralheria Artística desenvolvemos projetos buscando sempre atender o gosto do cliente, harmonizando a beleza, qualidade e muito atendo a segurança e funcionalidade de cada peça que fabricamos."
+          "image": "images/clients/logo-03.jpg",
+          "alt": "Votorantim Cimentos",
+          "client": "Votorantim Cimentos",
+          "function": "Uma das maiores empresas na indústria de materiais de construção do mundo,",
+          "description": ""
         },
         {
-          "image": "images/clients/04.jpg",
-          "alt": "Rodrigues",
-          "client": "Cliente aqui",
-          "function": "Lorem ipsum",
-          "description": "Na área de Serralheria Artística desenvolvemos projetos buscando sempre atender o gosto do cliente, harmonizando a beleza, qualidade e muito atendo a segurança e funcionalidade de cada peça que fabricamos."
+          "image": "images/clients/logo-04.jpg",
+          "alt": "Dynapac",
+          "client": "Dynapac",
+          "function": "Referência quando o assunto é equipamento pesado",
+          "description": ""
         }
       ]
     }
