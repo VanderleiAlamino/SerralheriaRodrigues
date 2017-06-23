@@ -1,0 +1,25 @@
+{{#if facts}}
+<!-- Fun Facts -->
+<section id="facts" class="fun-facts background40 parallax5 xdark-bg">
+
+	<!-- Facts -->
+	<div class="facts clearfix t-center white">
+		{{#each facts}}
+		<!-- Fact -->
+		<div class="fact" data-perc="{{perc}}">
+			<!-- Fact Tag -->
+			<h1 class="factor georgia"></h1>
+			<!-- Fact Name -->
+			<h3 class="light">
+				{{item}}
+			</h3>
+		</div>
+		<!-- End Fact -->
+		{{/each}}		
+
+	</div>
+	<!-- End Facts -->
+
+</section>
+<!-- End Fun Facts Section -->
+{{/if}}

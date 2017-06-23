@@ -1,0 +1,85 @@
+{{#if skills}}
+{{#each skills}}
+<!-- Notes/Skills Section -->
+<section id="skills">
+
+	<!-- Inner -->
+	<div class="inner t-center clearfix">
+		<!-- Header -->
+		<h1 class="header header-style-2 dark georgia t-center ">
+			{{title}}
+		</h1>
+		<!-- Header Text -->
+		<p class="normal t-center">
+			{{description}}
+		</p>
+
+		{{#if boxes}}
+		<!-- Boxes -->
+		<div class="boxes boxes-type-3 f-left col-xs-6 t-left">			
+			{{#each boxes}}
+			<!-- Box -->
+			<div class="box clearfix">
+				<!-- Box Icon -->
+				<div class="box-icon t-center normal f-left col-xs-2">
+					<!-- Icon -->
+					<a href="" class="changeable-icon">
+						<!-- Icon Selector -->
+						<i class="fa {{icon}}"></i>
+					</a>
+				</div>
+				<!-- End Box Icon -->
+				<!-- Box Texts -->
+				<div class="box-texts f-left col-xs-10">
+					<!-- Box Header -->
+					<h4 class="box-header  no-padding">
+						{{title}}
+					</h4>
+
+					<!-- Box Description -->
+					<p class="no-padding light no-margin">
+						{{description}}
+					</p>
+				</div>
+				<!-- End Box Texts -->
+			</div>
+			<!-- End Box -->
+			{{/each}}
+
+		</div>
+		<!-- End Boxes -->
+		{{/if}}
+
+		{{#if itens}}		
+		<!-- Skills -->
+		<div class="skills f-left t-left col-xs-6">
+			{{#each itens}}
+			<!-- Skill -->
+			<div class="skill">
+				<!-- Header -->
+				<h4 class="no-margin no-padding uppercase">
+					{{title}}
+				</h4>
+				<!-- Text -->
+				<p class="no-padding italic light">
+					{{description}}
+				</p>
+				<!-- Progress -->
+				<div class="progress">
+					<!-- Progress Bar / Add your value to data-value area -->
+					<div class="progress-bar georgia" data-value="{{progress}}"></div>
+					<!-- End Progress Bar -->
+				</div>
+				<!-- End Progress Bar -->
+			</div>
+			<!-- Skill -->
+			{{/each}}
+		</div>
+		{{/if}}
+		<!-- End Skills -->
+	</div>
+	<!-- End Inner -->
+</section>
+<!-- End Notes/Skills Section -->
+{{/each}}
+{{/if}}

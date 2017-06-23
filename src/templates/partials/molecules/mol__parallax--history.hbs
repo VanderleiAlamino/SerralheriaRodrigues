@@ -1,0 +1,100 @@
+{{#if history}}
+<!-- Timeline Section -->
+<section id="timeline" class="container background42 parallax7 light-bg">
+	{{#each history}}
+	<!-- Featured Works Inner -->
+	<div class="inner t-center animated" data-animation="fadeIn" data-animation-delay="100">
+		<!-- Header -->
+		<h2 class="header header-style-1 dark semibold uppercase">
+			{{title}}
+		</h2>
+		<!-- Header Text -->
+		<p class="light">
+			{{description}}
+		</p>
+	</div>
+
+	<!-- TimeLine Loader -->
+	<div class="timelineLoader">
+		<img src="images/timeline/loadingAnimation.gif" alt="Loading..." />
+	</div>
+
+	{{#if timeline}}
+	<!-- Begin Timeline -->
+	<div class="timelineFlat timeline tl3 animated" data-animation="fadeIn" data-animation-delay="400">
+		{{#each timeline}}
+		<!-- Item -->
+		<div class="item" data-id="{{datetime}}" data-description="{{datadescription}}">
+			<!-- Item Image -->
+			<a class="image-link" data-description="ZOOM IN" href="{{image}}">
+				<img src="{{image}}" alt="{{alt}}"/>
+			</a>
+			<!-- Timeline Details -->
+			<div class="timeline-item-details clearfix">
+				<!-- Left Area -->
+				<div class="left_details f-left">
+					<!-- Header -->
+					<h3>
+						{{datadescription}}
+					</h3>
+					<!-- Date -->
+					<p>
+						{{dateresume}}
+					</p>
+				</div>
+				<!-- Right Area -->
+				<div class="right-buttons f-right">
+					<!-- Detail Page Link -->
+					<a href="{{href}}" class="detail_page ex-link">
+						<i class="fa fa-plus"></i>
+					</a>
+					<!-- Read More -->
+					<a class="read_more" data-id="datetime">
+						<i class="fa fa-angle-right"></i>
+					</a>
+				</div>
+			</div>
+			<!-- End Details -->
+		</div>
+		<!-- End Item -->
+
+		<!-- Item Open -->
+		<div class="item_open" data-id="datetime" data-access="{{access}}">
+			<div class="item_open_content">
+				<img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="Loading..." />
+			</div>
+		</div>
+		<!-- End Item Open -->
+		{{/each}}
+
+	</div>
+	<!-- End Items -->
+	{{/if}}
+
+	<!-- Timeline Texts -->
+	<div class="timeline-texts relative t-center">
+
+		<!-- Slider Texts Area -->
+		<h2 class="normal">Super Responsive, clean and creative theme - Crexis!</h2>
+		<p class="normal">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+		<!-- Bottom Buttons -->
+		<div class="content-buttons">
+			<!-- First Button -->
+			<a href="" class="t-center content-button">
+				<p class="uppercase">Our Portfolio</p>
+				<p class="normal">See Our All Works</p>
+			</a>
+			<!-- Second Button -->
+			<a href="" class="t-center content-button">
+				<p class="uppercase">Keep In Touch</p>
+				<p class="normal">Send Us a Message</p>
+			</a>
+		</div>
+		<!-- End Buttons -->
+
+	</div>
+	<!-- End Timeline Texts -->
+	{{/each}}
+</section>
+<!-- End Timeline -->
+{{/if}}

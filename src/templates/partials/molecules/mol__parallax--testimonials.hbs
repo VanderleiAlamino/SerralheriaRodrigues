@@ -1,0 +1,29 @@
+{{#if testimonials}}
+<!-- Testimonials -->
+<section class="testimonials type-1 background44 parallax3 xdark-bg" id="testimonials">
+	<!-- Inner -->
+	<div class="inner">
+		<!-- Quote -->
+		<div class="quote white t-center circle light">
+			<i class="fa fa-quote-left"></i>
+		</div>
+		<!-- Slider -->
+		<div class="testimonial-slide">
+			{{#each testimonials}}
+			<!-- Item -->
+			<div class="cbp-item">
+				<!-- Item Header -->
+				<h2 class="t-center light">
+					{{description}} 
+				</h2>
+				<!-- Item Description -->
+				<p class="uppercase light white t-center">{{name}}</p>
+			</div>
+			{{/each}}
+		</div>
+		<!-- End Slider -->
+	</div>
+	<!-- End Inner -->
+</section>
+<!-- End Testimonials -->	
+{{/if}}

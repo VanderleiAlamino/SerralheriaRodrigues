@@ -1,0 +1,117 @@
+<!-- Team Section -->
+{{#if team}}
+<section id="team" class="container fixed-bg cover">
+
+	{{#each team}}
+	<!-- Team Inner -->
+	<div class="inner t-center">
+
+
+		<!-- Header -->
+		<h2 class="header header-style-1 dark semibold uppercase animated" data-animation="fadeIn" data-animation-delay="100">
+			{{title}}
+		</h2>
+		<!-- Header Text -->
+		<p class="light animated" data-animation="fadeIn" data-animation-delay="100">
+			{{description}}
+		</p>
+
+		<!-- Team Boxes -->
+		{{#if modal}}
+		<div class="team-boxes clearfix">
+
+			<!-- Team Box -->
+			{{#each modal}}
+			<div class="team-box col-md-4 animated" data-animation="fadeIn" data-animation-delay="300">
+				<!-- Image Area -->
+				<div class="member-image fullwidth">
+					<!-- Image Way -->
+					<img src="{{image}}" alt="{{alt}}" />
+				</div>
+				<!-- Member Details -->
+				<div class="member-details light">
+					<!-- Name -->
+					<h3>{{name}}</h3>
+					<!-- Position -->
+					<h5>{{position}}</h5>
+					<!-- Strip -->
+					<div class="strip"></div>
+					<!-- Member Description -->
+					<p class="normal">{{description}}</p>
+					<!-- Socials -->
+					<div class="socials">
+						<!-- Social Link -->
+						<a href="#">
+							<i class="fa fa-facebook"></i>
+						</a>
+						<!-- Social Link -->
+						<a href="#">
+							<i class="fa fa-twitter"></i>
+						</a>
+						<!-- Social Link -->
+						<a href="#">
+							<i class="fa fa-pinterest"></i>
+						</a>
+					</div>
+					<!-- View More Button -->
+					<a data-toggle="modal" data-target="#{{id}}" class="member-more uppercase normal team_modal">View More</a>
+				</div>
+				<!-- End Member Details -->
+			</div>
+			{{/each}}
+			<!-- End Box -->
+		</div>
+		{{/if}}
+		<!-- End Boxes -->
+	</div>
+	<!-- End Inner -->
+
+	{{#if modal}}
+	<!-- Member Modals -->
+	<div id="member-modals">
+
+		{{#each modal}}
+		<!-- Modal -->
+		<div class="modal fade" id="{{id}}" tabindex="-1" role="dialog" aria-hidden="true">
+			<!-- Modal Dialog -->
+			<div class="modal-dialog t-left">
+				<!-- Body -->
+				<div class="modal-body t-center clearfix">
+					<!-- Close Button -->
+					<a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+					<!-- Image SRC -->
+					<div class="member-image">
+						<img src="{{image}}" alt="{{alt}}" />
+					</div>
+					<!-- Details -->
+					<div class="details t-left">
+						<!-- Member Name -->
+						<h2 class="member-header light">
+							{{name}}
+						</h2>
+						<!-- Member Position -->
+						<h4 class="member-position light colored">
+							{{position}}
+						</h4>
+						<!-- Description -->
+						<p class="no-padding light">
+							{{description}} 
+						</p>
+					</div>
+					<!-- End Details -->
+				</div>
+				<!-- End Body -->
+			</div>
+			<!-- End Dialog -->
+		</div>
+		<!-- End Modal -->
+		{{/each}}
+		<!-- Modal -->		
+
+	</div>
+	{{/if}}
+	<!-- End Modals -->
+	{{/each}}
+</section>
+{{/if}}
+<!-- End Team Section -->
