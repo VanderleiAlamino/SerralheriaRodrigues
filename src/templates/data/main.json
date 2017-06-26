@@ -103,8 +103,8 @@
   "portfolio":
   [
     {
-      "title": "Lorem Ipsum Dolor",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodvtempor incididunt ut labore et dolore magna aliqua.",
+      "title": "Trabalhos realizados",
+      "description": "Nossos profissionais, serrralheiros experientes, com grande conhecimento técnico e altamente qualificados, realizam os seguintes serviços de serralheria:",
       "sections":
       [
         {
@@ -126,239 +126,229 @@
           "item": "Industrial",
           "view": ".industrial",
           "class": "cbp-filter-item"
+        },
+        {
+          "item": "Estrutura metálica",
+          "view": ".estrutura-metalica",
+          "class": "cbp-filter-item"
+        },
+        {
+          "item": "Porta de aço",
+          "view": ".porta-de-aco",
+          "class": "cbp-filter-item"
         }
       ],
       "portfolio-itens":
       [
         {
           "url": "projects/project_02.html",
-          "class": "marinha",
+          "class": "calderaria",
           "image": "images/portfolio/01.jpg",
-          "alt": "Lorem",
+          "alt": "Calderaria",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Calderaria",
+          "title": "Calderaria",
+          "tags": "calderaria"
         },
         {
           "url": "projects/project_02.html",
-          "class": "marinha",
+          "class": "calderaria",
           "image": "images/portfolio/02.jpg",
-          "alt": "Lorem",
+          "alt": "Calderaria",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Calderaria",
+          "title": "Calderaria",
+          "tags": "calderaria"
         },
         {
           "url": "projects/project_02.html",
-          "class": "marinha",
+          "class": "calderaria",
           "image": "images/portfolio/03.jpg",
-          "alt": "Lorem",
+          "alt": "Calderaria",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Calderaria",
+          "title": "Calderaria",
+          "tags": "calderaria"
         },
         {
           "url": "projects/project_02.html",
-          "class": "aves",
+          "class": "calderaria",
           "image": "images/portfolio/04.jpg",
-          "alt": "Lorem",
+          "alt": "Calderaria",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Calderaria",
+          "title": "Calderaria",
+          "tags": "calderaria"
         },
         {
           "url": "projects/project_02.html",
-          "class": "aves",
+          "class": "industrial",
           "image": "images/portfolio/05.jpg",
-          "alt": "Lorem",
+          "alt": "Dispositivo industrial",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Dispositivo industrial",
+          "title": "Dispositivo industrial",
+          "tags": "industrial"
         },
         {
           "url": "projects/project_02.html",
-          "class": "aves",
+          "class": "industrial",
           "image": "images/portfolio/06.jpg",
-          "alt": "Lorem",
+          "alt": "Dispositivo industrial",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Dispositivo industrial",
+          "title": "Dispositivo industrial",
+          "tags": "industrial"
         },
         {
           "url": "projects/project_02.html",
-          "class": "aves",
+          "class": "industrial",
           "image": "images/portfolio/07.jpg",
-          "alt": "Lorem",
+          "alt": "Dispositivo industrial",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Dispositivo industrial",
+          "title": "Dispositivo industrial",
+          "tags": "industrial"
         },
         {
           "url": "projects/project_02.html",
-          "class": "savana",
+          "class": "industrial",
           "image": "images/portfolio/08.jpg",
-          "alt": "Lorem",
+          "alt": "Dispositivo industrial",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Dispositivo industrial",
+          "title": "Dispositivo industrial",
+          "tags": "industrial"
         },
         {
           "url": "projects/project_02.html",
-          "class": "savana",
+          "class": "estrutura-metalica",
           "image": "images/portfolio/09.jpg",
-          "alt": "Lorem",
+          "alt": "Estrutura metálica",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Estrutura metálica",
+          "title": "Estrutura metálica",
+          "tags": "Estrutura metálica"
         },
         {
           "url": "projects/project_02.html",
-          "class": "savana",
+          "class": "estrutura-metalica",
           "image": "images/portfolio/10.jpg",
-          "alt": "Lorem",
+          "alt": "Estrutura metálica",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Estrutura metálica",
+          "title": "Estrutura metálica",
+          "tags": "Estrutura metálica"
         },
         {
           "url": "projects/project_02.html",
-          "class": "savana",
+          "class": "industrial",
           "image": "images/portfolio/11.jpg",
-          "alt": "Lorem",
+          "alt": "Dispositivo industrial",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Dispositivo industrial",
+          "title": "Dispositivo industrial",
+          "tags": "industrial"
         },
         {
           "url": "projects/project_02.html",
-          "class": "aves",
+          "class": "industrial",
           "image": "images/portfolio/12.jpg",
-          "alt": "Lorem",
+          "alt": "Dispositivo industrial",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Dispositivo industrial",
+          "title": "Dispositivo industrial",
+          "tags": "industrial"
         },
         {
           "url": "projects/project_02.html",
-          "class": "marinha",
+          "class": "industrial",
           "image": "images/portfolio/13.jpg",
-          "alt": "Lorem",
+          "alt": "Dispositivo industrial",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Dispositivo industrial",
+          "title": "Dispositivo industrial",
+          "tags": "industrial"
         },
         {
           "url": "projects/project_02.html",
-          "class": "marinha",
+          "class": "porta-de-aco",
           "image": "images/portfolio/14.jpg",
-          "alt": "Lorem",
+          "alt": "Porta de aço",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Porta de aço",
+          "title": "Porta de aço",
+          "tags": "Porta de aço"
         },
         {
           "url": "projects/project_02.html",
-          "class": "marinha",
+          "class": "porta-de-aco",
           "image": "images/portfolio/15.jpg",
-          "alt": "Lorem",
+          "alt": "Porta de aço",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Porta de aço",
+          "title": "Porta de aço",
+          "tags": "Porta de aço"
         },
         {
           "url": "projects/project_02.html",
-          "class": "marinha",
+          "class": "porta-de-aco",
           "image": "images/portfolio/16.jpg",
-          "alt": "Lorem",
+          "alt": "Porta de aço",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Porta de aço",
+          "title": "Porta de aço",
+          "tags": "Porta de aço"
         },
         {
           "url": "projects/project_02.html",
-          "class": "marinha",
-          "image": "images/portfolio/16.jpg",
-          "alt": "Lorem",
-          "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
-        },
-        {
-          "url": "projects/project_02.html",
-          "class": "marinha",
+          "class": "industrial",
           "image": "images/portfolio/17.jpg",
-          "alt": "Lorem",
+          "alt": "Dispositivo industrial",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Dispositivo industrial",
+          "title": "Dispositivo industrial",
+          "tags": "industrial"
         },
         {
           "url": "projects/project_02.html",
-          "class": "savana",
+          "class": "industrial",
           "image": "images/portfolio/18.jpg",
-          "alt": "Lorem",
+          "alt": "Dispositivo industrial",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Dispositivo industrial",
+          "title": "Dispositivo industrial",
+          "tags": "industrial"
         },
         {
           "url": "projects/project_02.html",
-          "class": "savana",
+          "class": "industrial",
           "image": "images/portfolio/19.jpg",
-          "alt": "Lorem",
+          "alt": "Dispositivo industrial",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Dispositivo industrial",
+          "title": "Dispositivo industrial",
+          "tags": "industrial"
         },
         {
           "url": "projects/project_02.html",
-          "class": "savana",
+          "class": "industrial",
           "image": "images/portfolio/20.jpg",
-          "alt": "Lorem",
+          "alt": "Dispositivo industrial",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Dispositivo industrial",
+          "title": "Dispositivo industrial",
+          "tags": "industrial"
         },
         {
           "url": "projects/project_02.html",
-          "class": "aves, marinha",
+          "class": "industrial",
           "image": "images/portfolio/21.jpg",
-          "alt": "Lorem",
+          "alt": "Dispositivo industrial",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
-        },
-        {
-          "url": "projects/project_02.html",
-          "class": "aves",
-          "image": "images/portfolio/22.jpg",
-          "alt": "Lorem",
-          "icon": "fa fa-camera-retro",
-          "icon-title": "Lorem Ipsum",
-          "title": "Lorem Ipsum",
-          "tags": "lore, ipsum, dolor"
+          "icon-title": "Dispositivo industrial",
+          "title": "Dispositivo industrial",
+          "tags": "industrial"
         }
       ]
     }
