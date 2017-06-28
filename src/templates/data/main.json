@@ -521,38 +521,87 @@
       [
         {
           "image": "images/clients/01.jpg",
-          "alt": "Lorem",
-          "client": "Lorem",
-          "function": "Lorem ipsum",
-          "description": "Lorem ipsum dolor sit amet"
+          "alt": "Alumisasshi Alta Tecnologia em Esquadrias LTDA",
+          "client": "Alumisasshi Alta Tecnologia em Esquadrias LTDA",
+          "function": "",
+          "description": ""
         },
         {
           "image": "images/clients/02.jpg",
-          "alt": "Lorem",
-          "client": "Lorem",
-          "function": "Lorem ipsum",
-          "description": "Lorem ipsum dolor sit amet"
+          "alt": "Atlas Copco Brasil LTDA",
+          "client": "Atlas Copco Brasil LTDA",
+          "function": "",
+          "description": ""
         },
         {
           "image": "images/clients/03.jpg",
-          "alt": "Lorem",
-          "client": "Lorem",
-          "function": "Lorem ipsum",
-          "description": "Lorem ipsum dolor sit amet"
+          "alt": "Atlas Copco Brasil LTDA - Rental",
+          "client": "Atlas Copco Brasil LTDA - Rental",
+          "function": "",
+          "description": ""
         },
         {
           "image": "images/clients/04.jpg",
-          "alt": "Lorem",
-          "client": "Lorem",
-          "function": "Lorem ipsum",
-          "description": "Lorem ipsum dolor sit amet"
+          "alt": "Campari do Brasil LT",
+          "client": "Campari do Brasil LT",
+          "function": "",
+          "description": ""
         },
         {
           "image": "images/clients/05.jpg",
-          "alt": "Lorem",
-          "client": "Lorem",
-          "function": "Lorem ipsum",
-          "description": "Lorem ipsum dolor sit amet"
+          "alt": "Dynapac do Brasil Indústria e Comércio de Máquinas LTDA",
+          "client": "Dynapac do Brasil Industrial e Comércio de Máquinas LTDA",
+          "function": "",
+          "description": ""
+        },
+        {
+          "image": "images/clients/06.jpg",
+          "alt": "Edscha do Brasil LTDA",
+          "client": "Edscha do Brasil LTDA",
+          "function": "",
+          "description": ""
+        },
+        {
+          "image": "images/clients/07.jpg",
+          "alt": "Furukawa Indl S/A Produtos Elétricos",
+          "client": "Furukawa Indl S/A Produtos Elétricos",
+          "function": "",
+          "description": ""
+        },
+        {
+          "image": "images/clients/08.jpg",
+          "alt": "Holcim Brasil S/A",
+          "client": "Holcim Brasil S/A",
+          "function": "",
+          "description": ""
+        },
+        {
+          "image": "images/clients/09.jpg",
+          "alt": "Metso Brasil Indústria e Comércio LTDA - Equipamentos",
+          "client": "Metso Brasil Industria e Comércio LTDA - Equipamentos",
+          "function": "",
+          "description": ""
+        },
+        {
+          "image": "images/clients/10.jpg",
+          "alt": "Metso Brasil Industria e Comércio LTDA - Fundição",
+          "client": "Metso Brasil Industria e Comércio LTDA - Fundição",
+          "function": "",
+          "description": ""
+        },
+        {
+          "image": "images/clients/11.jpg",
+          "alt": "Resicontrol Soluções Ambientais S/A",
+          "client": "Resicontrol Soluções Ambientais S/A",
+          "function": "",
+          "description": ""
+        },
+        {
+          "image": "images/clients/12.jpg",
+          "alt": "Sorocaba Refrescos S/A",
+          "client": "Sorocaba Refrescos S/A",
+          "function": "",
+          "description": ""
         }
       ]
     }
