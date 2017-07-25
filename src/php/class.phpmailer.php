@@ -58,26 +58,26 @@ class PHPMailer
      * Sets the From email address for the message.
      * @var string
      */
-    var $From               = "root@localhost";
+    var $From               = "contato@rodriguessi.com.br";
 
     /**
      * Sets the From name of the message.
      * @var string
      */
-    var $FromName           = "";
+    var $FromName           = "Site";
 
     /**
      * Sets the Sender email (Return-Path) of the message.  If not empty,
      * will be sent via -f to sendmail or as 'MAIL FROM' in smtp mode.
      * @var string
      */
-    var $Sender            = "";
+    var $Sender            = "contato@rodriguessi.com.br";
 
     /**
      * Sets the Subject of the message.
      * @var string
      */
-    var $Subject           = "";
+    var $Subject           = "Mensagem vinda do site";
 
     /**
      * Sets the Body of the message.  This can be either an HTML or text body.
