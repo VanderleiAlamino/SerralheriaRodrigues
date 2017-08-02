@@ -14,14 +14,6 @@
       "url": "#portfolio"
     },
     {
-      "item": "Clientes",
-      "url": "#clients"
-    },  
-    {
-      "item": "Nossa história",
-      "url": "#timeline"
-    },
-    {
       "item": "Fale Conosco",
       "url": "#contact"
     }
@@ -109,243 +101,645 @@
           "class": "cbp-filter-item-active cbp-filter-item"
         },
         {
-          "item": "Calderaria",
-          "view": ".calderaria",
-          "class": "cbp-filter-item"
-        },
-        {
-          "item": "Residencial",
-          "view": ".residencial",
-          "class": "cbp-filter-item"
-        },
-        {
-          "item": "Industrial",
-          "view": ".industrial",
-          "class": "cbp-filter-item"
-        },
-        {
-          "item": "Estrutura metálica",
-          "view": ".estrutura-metalica",
-          "class": "cbp-filter-item"
-        },
-        {
-          "item": "Porta de aço",
+          "item": "Portas de Aço",
           "view": ".porta-de-aco",
+          "class": "cbp-filter-item"
+        },
+        {
+          "item": "Portões",
+          "view": ".portao",
+          "class": "cbp-filter-item"
+        },
+        {
+          "item": "Soluções industriais",
+          "view": ".solucoes-industrais",
           "class": "cbp-filter-item"
         }
       ],
       "portfolio-itens":
       [
         {
-          "url": "projects/project_02.html",
-          "class": "calderaria",
-          "image": "images/portfolio/01.jpg",
-          "alt": "Calderaria",
-          "icon": "fa fa-camera-retro",
-          "icon-title": "Calderaria",
-          "title": "Calderaria",
-          "tags": "calderaria"
-        },
-        {
-          "url": "projects/project_02.html",
-          "class": "calderaria",
-          "image": "images/portfolio/02.jpg",
-          "alt": "Calderaria",
-          "icon": "fa fa-camera-retro",
-          "icon-title": "Calderaria",
-          "title": "Calderaria",
-          "tags": "calderaria"
-        },
-        {
-          "url": "projects/project_02.html",
-          "class": "calderaria",
-          "image": "images/portfolio/03.jpg",
-          "alt": "Calderaria",
-          "icon": "fa fa-camera-retro",
-          "icon-title": "Calderaria",
-          "title": "Calderaria",
-          "tags": "calderaria"
-        },
-        {
-          "url": "projects/project_02.html",
-          "class": "calderaria",
-          "image": "images/portfolio/04.jpg",
-          "alt": "Calderaria",
-          "icon": "fa fa-camera-retro",
-          "icon-title": "Calderaria",
-          "title": "Calderaria",
-          "tags": "calderaria"
-        },
-        {
-          "url": "projects/project_02.html",
-          "class": "industrial",
-          "image": "images/portfolio/05.jpg",
-          "alt": "Dispositivo industrial",
-          "icon": "fa fa-camera-retro",
-          "icon-title": "Dispositivo industrial",
-          "title": "Serralheria - Dispositivo industrial",
-          "tags": "industrial"
-        },
-        {
-          "url": "projects/project_02.html",
-          "class": "industrial",
-          "image": "images/portfolio/06.jpg",
-          "alt": "Dispositivo industrial",
-          "icon": "fa fa-camera-retro",
-          "icon-title": "Dispositivo industrial",
-          "title": "Serralheria - Dispositivo industrial",
-          "tags": "industrial"
-        },
-        {
-          "url": "projects/project_02.html",
-          "class": "industrial",
-          "image": "images/portfolio/07.jpg",
-          "alt": "Dispositivo industrial",
-          "icon": "fa fa-camera-retro",
-          "icon-title": "Dispositivo industrial",
-          "title": "Serralheria - Dispositivo industrial",
-          "tags": "industrial"
-        },
-        {
-          "url": "projects/project_02.html",
-          "class": "industrial",
-          "image": "images/portfolio/08.jpg",
-          "alt": "Dispositivo industrial",
-          "icon": "fa fa-camera-retro",
-          "icon-title": "Dispositivo industrial",
-          "title": "Serralheria - Dispositivo industrial",
-          "tags": "industrial"
-        },
-        {
-          "url": "projects/project_02.html",
-          "class": "estrutura-metalica",
-          "image": "images/portfolio/09.jpg",
-          "alt": "Estrutura metálica",
-          "icon": "fa fa-camera-retro",
-          "icon-title": "Estrutura metálica",
-          "title": "Serralheria - Estrutura metálica",
-          "tags": "Estrutura metálica"
-        },
-        {
-          "url": "projects/project_02.html",
-          "class": "estrutura-metalica",
-          "image": "images/portfolio/10.jpg",
-          "alt": "Estrutura metálica",
-          "icon": "fa fa-camera-retro",
-          "icon-title": "Estrutura metálica",
-          "title": "Serralheria - Estrutura metálica",
-          "tags": "Estrutura metálica"
-        },
-        {
-          "url": "projects/project_02.html",
-          "class": "industrial",
-          "image": "images/portfolio/11.jpg",
-          "alt": "Dispositivo industrial",
-          "icon": "fa fa-camera-retro",
-          "icon-title": "Dispositivo industrial",
-          "title": "Serralheria - Dispositivo industrial",
-          "tags": "industrial"
-        },
-        {
-          "url": "projects/project_02.html",
-          "class": "industrial",
-          "image": "images/portfolio/12.jpg",
-          "alt": "Dispositivo industrial",
-          "icon": "fa fa-camera-retro",
-          "icon-title": "Dispositivo industrial",
-          "title": "Serralheria - Dispositivo industrial",
-          "tags": "industrial"
-        },
-        {
-          "url": "projects/project_02.html",
-          "class": "industrial",
-          "image": "images/portfolio/13.jpg",
-          "alt": "Dispositivo industrial",
-          "icon": "fa fa-camera-retro",
-          "icon-title": "Dispositivo industrial",
-          "title": "Serralheria - Dispositivo industrial",
-          "tags": "industrial"
-        },
-        {
-          "url": "projects/project_02.html",
+          "url": "#",
           "class": "porta-de-aco",
-          "image": "images/portfolio/14.jpg",
-          "alt": "Porta de aço",
+          "image": "images/portfolio/porta-de-aco/porta-automatica.jpg",
+          "alt": "Porta Automática",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Porta de aço",
-          "title": "Serralheria - Porta de aço",
-          "tags": "Porta de aço"
+          "icon-title": "Porta automática",
+          "title": "Porta automática",
+          "tags": "Porta automática"
         },
         {
-          "url": "projects/project_02.html",
-          "class": "porta-de-aco",
-          "image": "images/portfolio/15.jpg",
-          "alt": "Porta de aço",
+          "url": "#",
+          "class": "portao",
+          "image": "images/portfolio/portao/brize.jpg",
+          "alt": "Brize",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Porta de aço",
-          "title": "Serralheria - Porta de aço",
-          "tags": "Porta de aço"
+          "icon-title": "Brize",
+          "title": "Portão Brize",
+          "tags": "Portão, Brize"
         },
         {
-          "url": "projects/project_02.html",
-          "class": "porta-de-aco",
-          "image": "images/portfolio/16.jpg",
-          "alt": "Porta de aço",
+          "url": "#",
+          "class": "portao",
+          "image": "images/portfolio/portao/brize-1.jpg",
+          "alt": "Brize",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Porta de aço",
-          "title": "Serralheria - Porta de aço",
-          "tags": "Porta de aço"
+          "icon-title": "Brize",
+          "title": "Portão Brize",
+          "tags": "Portão, Brize"
         },
         {
-          "url": "projects/project_02.html",
-          "class": "industrial",
-          "image": "images/portfolio/17.jpg",
-          "alt": "Dispositivo industrial",
+          "url": "#",
+          "class": "portao",
+          "image": "images/portfolio/portao/brizes.jpg",
+          "alt": "Brize",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Dispositivo industrial",
-          "title": "Dispositivo industrial",
-          "tags": "industrial"
+          "icon-title": "Brize",
+          "title": "Portão Brize",
+          "tags": "Portão, Brize"
         },
         {
-          "url": "projects/project_02.html",
-          "class": "industrial",
-          "image": "images/portfolio/18.jpg",
-          "alt": "Dispositivo industrial",
+          "url": "#",
+          "class": "portao",
+          "image": "images/portfolio/portao/detalhe-portao.jpg",
+          "alt": "Brize",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Dispositivo industrial",
-          "title": "Dispositivo industrial",
-          "tags": "industrial"
+          "icon-title": "Brize",
+          "title": "Portão Brize",
+          "tags": "Portão, Brize, Detalhes do Portão"
         },
         {
-          "url": "projects/project_02.html",
-          "class": "industrial",
-          "image": "images/portfolio/19.jpg",
-          "alt": "Dispositivo industrial",
+          "url": "#",
+          "class": "portao",
+          "image": "images/portfolio/portao/portao-basculante.jpg",
+          "alt": "Portão Basculante",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Dispositivo industrial",
-          "title": "Dispositivo industrial",
-          "tags": "industrial"
+          "icon-title": "Basculante",
+          "title": "Portão Basculante",
+          "tags": "Portão, Basculante"
         },
         {
-          "url": "projects/project_02.html",
-          "class": "industrial",
-          "image": "images/portfolio/20.jpg",
-          "alt": "Dispositivo industrial",
+          "url": "#",
+          "class": "portao",
+          "image": "images/portfolio/portao/portao-basculante-industrial.jpg",
+          "alt": "Portão Basculante Industrial",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Dispositivo industrial",
-          "title": "Dispositivo industrial",
-          "tags": "industrial"
+          "icon-title": "Basculante Industrial",
+          "title": "Portão Basculante Industrial",
+          "tags": "Portão, Basculante, Industrial"
         },
         {
-          "url": "projects/project_02.html",
-          "class": "industrial",
-          "image": "images/portfolio/21.jpg",
-          "alt": "Dispositivo industrial",
+          "url": "#",
+          "class": "portao",
+          "image": "images/portfolio/portao/portao-brize.jpg",
+          "alt": "Brize",
           "icon": "fa fa-camera-retro",
-          "icon-title": "Dispositivo industrial",
-          "title": "Dispositivo industrial",
-          "tags": "industrial"
+          "icon-title": "Brize",
+          "title": "Portão Brize",
+          "tags": "Portão, Brize"
+        },
+        {
+          "url": "#",
+          "class": "portao",
+          "image": "images/portfolio/portao/portao-desizante-industrial.jpg",
+          "alt": "Portão Deslizante Industrial",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Deslizante Industrial",
+          "title": "Portão Deslizante Industrial",
+          "tags": "Portão, Deslizante, Industrial"
+        },
+        {
+          "url": "#",
+          "class": "portao",
+          "image": "images/portfolio/portao/portao-social-tipo-brize.jpg",
+          "alt": "Portão social sipo brize",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Portão social sipo brize",
+          "title": "Portão social sipo brize",
+          "tags": "Portão, Portão social, Brize"
+        },
+        {
+          "url": "#",
+          "class": "portao",
+          "image": "images/portfolio/portao/portoes-basculantes-industriais.jpg",
+          "alt": "Portão Basculante Industrial",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Basculante Industrial",
+          "title": "Portão Basculante Industrial",
+          "tags": "Portão, Basculante, Industrial"
+        },
+        {
+          "url": "#",
+          "class": "portao",
+          "image": "images/portfolio/portao/portoes-industriais.jpg",
+          "alt": "Portão Industrial",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Portão Industrial",
+          "title": "Portão Industrial",
+          "tags": "Portão, Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/banquetas.jpg",
+          "alt": "Banquetas",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Banquetas",
+          "title": "Banquetas",
+          "tags": "Banquetas, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/banquetas-e-mesa.jpg",
+          "alt": "Banquetas e Mesas",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Banquetas e Mesas",
+          "title": "Banquetas e Mesas",
+          "tags": "Banquetas, Mesas, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/bica-desvio.jpg",
+          "alt": "Bica",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Bica",
+          "title": "Bica",
+          "tags": "Bica, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/cacamba-01.jpg",
+          "alt": "Caçambas",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Caçambas",
+          "title": "Caçambas",
+          "tags": "Caçambas, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/cacamba-02.jpg",
+          "alt": "Caçambas",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Caçambas",
+          "title": "Caçambas",
+          "tags": "Caçambas, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/cacamba-03.jpg",
+          "alt": "Caçambas",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Caçambas",
+          "title": "Caçambas",
+          "tags": "Caçambas, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/cacamba-04.jpg",
+          "alt": "Caçambas",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Caçambas",
+          "title": "Caçambas",
+          "tags": "Caçambas, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/caixa-de-refugo.jpg",
+          "alt": "Caixa de Refugo",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Caixa de Refugo",
+          "title": "Caixa de Refugo",
+          "tags": "Caixa de Refugo, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/carrinho-transporte.jpg",
+          "alt": "Caixa de Transporte",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Caixa de Transporte",
+          "title": "Caixa de Transporte",
+          "tags": "Caixa de Transporte, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/cavalete.jpg",
+          "alt": "Cavalete",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Cavalete",
+          "title": "Cavalete",
+          "tags": "Cavalete, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/cavalete-industrial.jpg",
+          "alt": "Cavalete Industrial",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Cavalete Industrial",
+          "title": "Cavalete Industrial",
+          "tags": "Cavalete, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/corrimao-industrial.jpg",
+          "alt": "Corrimão Industrial",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Corrimão Industrial",
+          "title": "Corrimão Industrial",
+          "tags": "Corrimão, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/corrimao-industrial-2.jpg",
+          "alt": "Corrimão Industrial",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Corrimão Industrial",
+          "title": "Corrimão Industrial",
+          "tags": "Corrimão, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/corrimao-industrial-3.jpg",
+          "alt": "Corrimão Industrial",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Corrimão Industrial",
+          "title": "Corrimão Industrial",
+          "tags": "Corrimão, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/dispositivo-de-armazenamento-e-transporte-de-pecas.jpg",
+          "alt": "Dispositivo de armazenamento e transporte de pecas",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Dispositivo de armazenamento e transporte de pecas",
+          "title": "Dispositivo de armazenamento e transporte de pecas",
+          "tags": "Armazenamentos, Transporte de peças, Dispositivo, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/dispositivo-de-armazenamento-e-transporte-de-pecas-2.jpg",
+          "alt": "Dispositivo de armazenamento e transporte de pecas",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Dispositivo de armazenamento e transporte de pecas",
+          "title": "Dispositivo de armazenamento e transporte de pecas",
+          "tags": "Armazenamentos, Transporte de peças, Dispositivo, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/dispositivo-icamento.jpg",
+          "alt": "Dispositivo de Içamento",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Dispositivo de Içamento",
+          "title": "Dispositivo de Içamento",
+          "tags": "Içamento, Dispositivo, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/dispositivo-monstagens.jpg",
+          "alt": "Dispositivo de Montagens",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Dispositivo de Içamento",
+          "title": "Dispositivo de Montagens",
+          "tags": "Montagens, Dispositivo, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/escada-industrial.jpg",
+          "alt": "Escada industrial",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Escada industrial",
+          "title": "Escada industrial",
+          "tags": "Escada industrial, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/estante-especifica.jpg",
+          "alt": "Estante",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Estante",
+          "title": "Estante",
+          "tags": "Estante, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/estante-movel.jpg",
+          "alt": "Estante",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Estante",
+          "title": "Estante",
+          "tags": "Estante, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/estantes-moveis.jpg",
+          "alt": "Estante",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Estante",
+          "title": "Estante",
+          "tags": "Estante, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/estruturas-metalicas.jpg",
+          "alt": "Estruturas Metálicas",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Estruturas Metálicas",
+          "title": "Estruturas Metálicas",
+          "tags": "Estruturas Metálicas, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/estruturas-metalicas-2.jpg",
+          "alt": "Estruturas Metálicas",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Estruturas Metálicas",
+          "title": "Estruturas Metálicas",
+          "tags": "Estruturas Metálicas, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/estruturas-metalicas-3.jpg",
+          "alt": "Estruturas Metálicas",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Estruturas Metálicas",
+          "title": "Estruturas Metálicas",
+          "tags": "Estruturas Metálicas, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/guarda-corpo.jpg",
+          "alt": "Guarda Corpo",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Guarda Corpo",
+          "title": "Guarda Corpo",
+          "tags": "Guarda Corpo, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/guarda-corpo-industrial.jpg",
+          "alt": "Guarda Corpo Industrial",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Guarda Corpo Industrial",
+          "title": "Guarda Corpo Industrial",
+          "tags": "Guarda Corpo, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/montagens-industriais.jpg",
+          "alt": "Montagens industriais",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Montagens industriais",
+          "title": "Montagens industriai",
+          "tags": "Montagens, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/montagens-porta-palets.jpg",
+          "alt": "Montagens porta palets",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Montagens porta palets",
+          "title": "Montagens porta palets",
+          "tags": "Montagens, porta palets, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/montagens-porta-pallets.jpg",
+          "alt": "Montagens porta palets",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Montagens porta palets",
+          "title": "Montagens porta palets",
+          "tags": "Montagens, porta palets, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/passarela-metalica.jpg",
+          "alt": "Passarela metalica",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Passarela metalica",
+          "title": "Passarela metalica",
+          "tags": "Passarela metalica, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/plataforma.jpg",
+          "alt": "Plataforma",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Plataforma",
+          "title": "Plataforma",
+          "tags": "Plataforma, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/plataforma-1.jpg",
+          "alt": "Plataforma",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Plataforma",
+          "title": "Plataforma",
+          "tags": "Plataforma, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/plataforma-2.jpg",
+          "alt": "Plataforma",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Plataforma",
+          "title": "Plataforma",
+          "tags": "Plataforma, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/plataforma-acesso.jpg",
+          "alt": "Plataforma de acesso",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Plataforma de acesso",
+          "title": "Plataforma de acesso",
+          "tags": "Plataforma de acesso, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/plataforma-acessos.jpg",
+          "alt": "Plataforma de acesso",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Plataforma de acesso",
+          "title": "Plataforma de acesso",
+          "tags": "Plataforma de acesso, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/rack-armazenamento.jpg",
+          "alt": "Rack de armazenamento",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Rack de armazenamento",
+          "title": "Rack de armazenamento",
+          "tags": "Rack de armazenamento, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/rack-armazenamento-e-transporte.jpg",
+          "alt": "Rack de armazenamento e transporte",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Rack de armazenamento e transporte",
+          "title": "Rack de armazenamento e transporte",
+          "tags": "Rack de armazenamento, transporte, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/rack-para-transporte.jpg",
+          "alt": "Rack para transporte",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Rack para transporte",
+          "title": "Rack de armazenamento e transporte",
+          "tags": "Rack para transporte, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/rack-transporte.jpg",
+          "alt": "Rack para transporte",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Rack para transporte",
+          "title": "Rack para transporte",
+          "tags": "Rack para transporte, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/rack-transporte-e-logistica.jpg",
+          "alt": "Rack para transporte e logística",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Rack para transporte e logística",
+          "title": "Rack para transporte e logística",
+          "tags": "Rack para transporte, logística, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/solucao-industrial.jpg",
+          "alt": "Solução Industrial",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Solução Industrial",
+          "title": "Solução Industrial",
+          "tags": "Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/solucao-industrial-0.jpg",
+          "alt": "Solução Industrial",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Solução Industrial",
+          "title": "Solução Industrial",
+          "tags": "Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/solucao-industrial-2.jpg",
+          "alt": "Solução Industrial",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Solução Industrial",
+          "title": "Solução Industrial",
+          "tags": "Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/solucao-industrial-3.jpg",
+          "alt": "Solução Industrial",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Solução Industrial",
+          "title": "Solução Industrial",
+          "tags": "Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/solucao-industrial-4.jpg",
+          "alt": "Solução Industrial",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Solução Industrial",
+          "title": "Solução Industrial",
+          "tags": "Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/tapume.jpg",
+          "alt": "Tapume",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Tapume",
+          "title": "Tapume",
+          "tags": "Tapume, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/tampa-inspecao-em-chapa.jpg",
+          "alt": "Tampa de inspecao em chapa",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Tampa de inspeção em chapa",
+          "title": "Tampa de inspeção em chapa",
+          "tags": "Tampa de inspeção em chapa, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/trabalhos-industriais.jpg",
+          "alt": "Trabalhos industriais",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Trabalhos industriais",
+          "title": "Trabalhos industriais",
+          "tags": "Trabalhos industriais, Solução Industrial"
+        },
+        {
+          "url": "#",
+          "class": "solucoes-industrais",
+          "image": "images/portfolio/solucoes-industrais/troca-de-telhas.jpg",
+          "alt": "Troca de telhas",
+          "icon": "fa fa-camera-retro",
+          "icon-title": "Troca de telhas",
+          "title": "Troca de telhas",
+          "tags": "Troca de telhas, Solução Industrial"
         }
+
+
       ]
     }
   ],

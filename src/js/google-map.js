@@ -34,7 +34,7 @@ GOOGLE MAP
 
             // First Marker Coordination
             
-            var myLatlng = new google.maps.LatLng(-23.4987934,-47.525502);
+            var myLatlng = new google.maps.LatLng(-23.4308291,-47.4689257);
 
             // Your Texts 
 
@@ -43,12 +43,12 @@ GOOGLE MAP
               '</div>'+
               '<h4>' +
 
-              'Office 1'+
+              'Serralheria Rodrigues'+
 
               '</h4>'+
               '<p>' +
 
-              'Sua descrição aqui.' +
+              'Venha nos conhecer.' +
 
               '</p>'+
               '</div>';
@@ -57,7 +57,7 @@ GOOGLE MAP
             var marker = new google.maps.Marker({
                   position: myLatlng,
                   map: map,
-                  title: 'Olá',
+                  title: 'Serralheria Rodrigues',
                   icon: image
               });
 
